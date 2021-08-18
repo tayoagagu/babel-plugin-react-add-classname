@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-react-add-classname",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "babel plugin for adding classname",
   "license": "MIT",
   "repository": "tayoagagu/babel-plugin-react-add-classname",
