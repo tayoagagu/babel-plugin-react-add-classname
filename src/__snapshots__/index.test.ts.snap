@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`no options do nothing: do nothing 1`] = `
+
+const hello = () => (
+  <div className="test-hello"></div>
+)
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+const hello = () => <div className="test-hello"></div>;
+
+`;
+
+exports[`with option with class name that already exists: with class name that already exists 1`] = `
+
+const hello = () => (
+  <div className="babel-a hello test-b classname-to-add"></div>
+)
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+const hello = () => <div className="babel-a hello test-b classname-to-add"></div>;
+
+`;
+
+exports[`with option with class name: with class name 1`] = `
+
+const hello = () => (
+  <div className="babel-a hello test-b"></div>
+)
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+const hello = () => <div className="babel-a hello test-b classname-to-add"></div>;
+
+`;
