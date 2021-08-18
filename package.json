@@ -1,10 +1,10 @@
 {
-  "name": "babel-plugin-react-remove-classname",
+  "name": "babel-plugin-react-add-classname",
   "version": "0.0.1",
-  "description": "babel plugin for remove classname",
+  "description": "babel plugin for adding classname",
   "license": "MIT",
-  "repository": "akameco/babel-plugin-react-remove-classname",
-  "author": "akameco <akameco.t@gmail.com> (akameco.github.io)",
+  "repository": "tayoagagu/babel-plugin-react-add-classname",
+  "author": "tayoagagu",
   "engines": {
     "node": ">=6"
   },
